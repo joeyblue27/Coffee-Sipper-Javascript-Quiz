@@ -1,4 +1,4 @@
-## Drinking the Java quiz!
+## Coffee Sippers Javascript Quiz!
 
 #  
     * 2 minutes to answer the questions correctly.
