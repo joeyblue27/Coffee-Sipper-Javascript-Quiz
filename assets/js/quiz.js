@@ -9,7 +9,7 @@ var scoresEl = document.getElementById('scorelist');
 // Question Index
 var qsaIndex = 0;
 // Countdown Timer
-var countDown = qsa.length + 118;
+var countDown = qsa.length + 114;
 var clock
 
 //button selections
