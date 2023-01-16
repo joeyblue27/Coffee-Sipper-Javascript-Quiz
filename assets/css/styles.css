@@ -78,3 +78,9 @@ color: rgb(50, 25, 78);
   color: rgb(104, 47, 47);
 }
 
+@media screen and (max-width: 768px) {
+  button,
+  a, img {
+    flex-direction: column;
+  }
+}
