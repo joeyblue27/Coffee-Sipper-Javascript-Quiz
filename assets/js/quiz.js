@@ -1,4 +1,4 @@
-// Elements from the DOM
+// DOM Elements created 
 var qsaEl = document.getElementById('qsa');
 var selectEl = document.getElementById('selections');
 var countEl = document.getElementById('countdown');
@@ -6,10 +6,13 @@ var goBtn = document.getElementById('go');
 var scoresBtn = document.getElementById('scorebtn');
 var initialEl = document.getElementById('initials');
 var scoresEl = document.getElementById('scorelist');
-// Question Index
+// Audio files
+var right = new Audio('assets/media/right.mp3');
+var wrong = new Audio('assets/media/wrong.mp3');
+// Question Index Array
 var qsaIndex = 0;
 // Countdown Timer
-var countDown = qsa.length + 114;
+var countDown = qsa.length + 113;
 var clock
 
 //button selections
@@ -39,7 +42,7 @@ function askQuestions() {
     // shows a button for each choice
     var select = questShow.selection[i];
     var selectBtn = document.createElement('button');
-    selectBtn.setAttribute('class', 'selections');
+    selectBtn.setAttribute('class', 'select');
     selectBtn.setAttribute('value', select,);
 
     selectBtn.textContent = i + 1 + '. ' + select;
@@ -72,7 +75,11 @@ function quizScreen() {
 function selectBtn(event) {
   var clickEl = event.target;
 
-    // statement to check if answer is right or wrong
+  // 
+  if (!clickEl.matches('.select')) {
+    return;
+  }
+  // statement to check if answer is right or wrong
   if (clickEl.value !== qsa[qsaIndex].answer) {
     // reduces timer by 5 seconds
     countDown -= 5;
@@ -83,11 +90,16 @@ function selectBtn(event) {
 
     countEl.textContent = countDown;
 
+    // plays the audio file when incorrect
+    wrong.play();
+
     scoresEl.textContent = 'That is Incorrect!'
 
     return;
 
   } else {
+    // plays the audio file when correct
+    right.play();
 
     scoresEl.textContent = 'That is Correct!';
   }

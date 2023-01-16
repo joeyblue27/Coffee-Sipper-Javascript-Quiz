@@ -5,16 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coffee Sipper Javascript Quiz</title>
+  <title>Coffee Sippers Javascript Quiz</title>
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
 <body>
-  <div class="clock">Timer - <span id="countdown"></span></div>
+  <div class="clock">Timer - <span id="countdown">120</span></div>
 
-  <div id="score"><a href="scoreview.html">Top Scores</a></div>
+  <div id="score"><a href="scoreview.html">Scores!</a></div>
   <div id="mainscreen" class="main">
-    <h1>Coffee Sipper Javascript Quiz</h1>
+    <h1>Coffee Sippers Javascript Quiz</h1>
     <p>
       You have 2 minutes to answer the questions correctly.
       <p> 5 seconds get reduced from the timer for every incorrect answer.
@@ -30,13 +30,14 @@
     <div id="selections" class="selections"></div>
   </div>
   <div id="finalscreen" class="hidden">
-    <h2>Finished!</h2>
-    <p>Final Score! <span id="showscore"></span>.</p>
+    <h2>All Done!</h2>
+    <p>Your Score! <span id="showscore"></span>.</p>
     <p>
-      initials: <input type="text" id="initials" max="5" />
+      Initials: <input type="text" id="initials" max="5" />
       <button id="scorebtn">View</button>
     </p>
   </div>
+  <img src="./assets/media/cup.jpg" alt="coffeecup" height="150" width="150">
 
 
 
