@@ -75,7 +75,7 @@ function quizScreen() {
 function selectBtn(event) {
   var clickEl = event.target;
 
-  // 
+  // only selects the button nothing else
   if (!clickEl.matches('.select')) {
     return;
   }
