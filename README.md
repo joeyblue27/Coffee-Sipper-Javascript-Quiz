@@ -5,7 +5,11 @@
     * 5 seconds get reduce from the timer for every incorrect answer.
     * When completed enter your initials and save your score. 
 
-# ![Coffee Sippers Javascript Quiz!](./quizdemo.gif)
+![image 1](./images/javaquiz.gif) 
+![image 2](./images/javaquiz.png) 
+![image 2](./images/javaquiz2.png) 
+![image 2](./images/javaquiz3.png) 
+
 
 # Links
 <a href="https://joeyblue27.github.io/Coffee-Sippers-Javascript-Quiz"

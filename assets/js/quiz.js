@@ -118,7 +118,7 @@ function selectBtn(event) {
   }
 }
 
-function finalScreen() {
+  function finalScreen() {
   // hides the questions 
   qsaEl.setAttribute('class', 'hidden');
 
