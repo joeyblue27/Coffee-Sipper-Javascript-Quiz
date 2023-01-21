@@ -1,6 +1,8 @@
 ## Coffee Sippers Javascript Quiz!
 
-#  
+    * This is a Javascript coding quiz that tests your knowledge. 
+    * You will be timed and when answered incorrectly time will be deducted. 
+    * Answer the questions correctly to move on to the next then view your scores.  
     * 2 minutes to answer the questions correctly.
     * 5 seconds get reduce from the timer for every incorrect answer.
     * When completed enter your initials and save your score. 
@@ -11,9 +13,8 @@
 ![image 2](./images/javaquiz3.png) 
 
 
-# Links
-<a href="https://joeyblue27.github.io/Coffee-Sippers-Javascript-Quiz"
-target="_blank">Deployed</a>
+* Deployed Link
 
-<a href="https://github.com/joeyblue27/Coffee-Sippers-Javascript-Quiz"
-target="_blank">Github Repo</a>
+<a href="https://joeyblue27.github.io/Coffee-Sippers-Javascript-Quiz"
+target="_blank">Launch</a>
+
