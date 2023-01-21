@@ -4,7 +4,7 @@
     * You will be timed and when answered incorrectly time will be deducted. 
     * Answer the questions correctly to move on to the next then view your scores.  
     * 2 minutes to answer the questions correctly.
-    * 5 seconds get reduce from the timer for every incorrect answer.
+    * 5 seconds get reduced from the timer for every incorrect answer.
     * When completed enter your initials and save your score. 
 
 ![image 1](./images/javaquiz.gif) 
